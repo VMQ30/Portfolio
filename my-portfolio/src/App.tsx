@@ -1,7 +1,26 @@
-import "./App.css";
+import { useState, useEffect } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <></>;
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [isDarkMode]);
+
+  return (
+    <>
+      <Navbar
+        isDarkMode={isDarkMode}
+        toggleTheme={() => setIsDarkMode(!isDarkMode)}
+      />
+      <main></main>
+    </>
+  );
 }
 
 export default App;
