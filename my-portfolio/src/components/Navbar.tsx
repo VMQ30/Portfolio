@@ -7,7 +7,7 @@ interface NavbarProps {
 
 export default function Navbar({ isDarkMode, toggleTheme }: NavbarProps) {
   return (
-    <nav className="sticky top-0 z-50 flex justify-between items-center px-[10%] py-4 bg-background/70 backdrop-blur-md border-b border-border">
+    <nav className="sticky top-0 z-50 flex justify-between items-center px-[13%] py-4 bg-background/70 backdrop-blur-md border-b border-border">
       <h2 className="font-display-italic text-2xl m-0 text-foreground">
         VMQ<span className="ml-[5px] text-primary">.</span>
       </h2>
