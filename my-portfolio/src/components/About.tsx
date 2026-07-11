@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
-import { GraduationCap, CodeXml } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 
-export function About() {
+export default function About() {
   const ref = useRef<HTMLDivElement>(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -10,7 +10,7 @@ export function About() {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsInView(true);
-          observer.unobserve(entry.target); // Animates only once
+          observer.unobserve(entry.target);
         }
       },
       { threshold: 0.1 },
@@ -39,14 +39,6 @@ export function About() {
       </div>
 
       <div className="md:col-span-2 space-y-8">
-        {/* <p className="text-md text-foreground leading-relaxed font-display-italic font-bold">
-          "The beautiful thing about learning is that no one can take it away
-          from you."
-          <br />
-          <span className=" text-muted-foreground font-normal">
-            — B.B. King
-          </span>
-        </p> */}
         <section>
           <div>
             <div
