@@ -63,7 +63,7 @@ export default function Works() {
         <h2 className="mt-6 font-display font-bold text-6xl leading-[0.95] tracking-tight text-left text-foreground">
           Selected{" "}
           <span className="font-medium font-display-italic text-primary">
-            Works
+            Works.
           </span>
         </h2>
       </div>
