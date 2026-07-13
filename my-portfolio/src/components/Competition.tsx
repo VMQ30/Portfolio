@@ -72,7 +72,7 @@ export default function Competition() {
     <div className="px-[13%] py-20 w-[100%] grid md:grid-cols-2 gap-16 text-left border-t border-primary mt-10">
       <div>
         <div className="flex items-center gap-3 text-[10px] uppercase tracking-[0.35em] text-muted-foreground mb-6">
-          <span className="text-primary">✦</span>Ch. III · Honors
+          <span className="text-primary">✦</span>Ch. IV · Honors
         </div>
         <p className="text-[10px] uppercase tracking-[0.35em] text-muted-foreground mb-6">
           Philosophy
