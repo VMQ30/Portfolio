@@ -61,6 +61,14 @@
   }
 }
 
+@layer components {
+  .competition-quote-badge {
+    border-color: var(--primary);
+    background-color: var(--pink-soft);
+    box-shadow: 0 0 40px color-mix(in oklch, var(--primary) 25%, transparent);
+  }
+}
+
 :root {
   --background: oklch(0.99 0.002 20);
   --foreground: oklch(0.18 0.01 260);
