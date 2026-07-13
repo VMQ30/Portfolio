@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Works from "./components/Works";
 import Skills from "./components/Skills";
+import Competition from "./components/Competition";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -27,6 +28,7 @@ function App() {
         <About />
         <Works />
         <Skills />
+        <Competition />
       </main>
     </>
   );
