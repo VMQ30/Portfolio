@@ -28,7 +28,7 @@ export default function Badges() {
     <div className="px-[13%] py-20 w-[100%] text-left border-t border-primary mt-10">
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20">
         <div>
-          <p className="text-[10px] uppercase tracking-[0.35em] text-muted-foreground text-left">
+          <p className="flex gap-3 text-[10px] uppercase tracking-[0.35em] text-muted-foreground text-left">
             <span className="text-primary">✦</span>
             Ch. V · Badges
           </p>

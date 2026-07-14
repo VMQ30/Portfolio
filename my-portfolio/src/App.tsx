@@ -6,6 +6,7 @@ import Works from "./components/Works";
 import Skills from "./components/Skills";
 import Competition from "./components/Competition";
 import Badges from "./components/Badges";
+import Certificates from "./components/Certificates";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -31,6 +32,7 @@ function App() {
         <Skills />
         <Competition />
         <Badges />
+        <Certificates />
       </main>
     </>
   );

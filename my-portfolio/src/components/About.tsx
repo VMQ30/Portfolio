@@ -26,7 +26,7 @@ export default function About() {
   return (
     <div className="px-[13%] py-20 grid md:grid-cols-3 gap-16 w-[100%] text-left border-t border-primary mt-10">
       <div className="md:col-span-1">
-        <p className="text-[10px] uppercase tracking-[0.35em] text-muted-foreground text-left">
+        <p className="flex gap-3 text-[10px] uppercase tracking-[0.35em] text-muted-foreground text-left">
           <span className="text-primary">✦</span>
           Ch. I · About
         </p>
