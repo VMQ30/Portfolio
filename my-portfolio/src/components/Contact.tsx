@@ -12,6 +12,7 @@ export default function Contact() {
           </p>
           <a
             href="mailto:quiniavidamarie30@gmail.com"
+            target="_blank"
             className="block text-foreground font-display-italic font-bold text-4xl sm:text-4xl md:text-5xl lg:text-6xl leading-[0.95] tracking-tight hover:opacity-70 transition-opacity break-words"
           >
             quiniavidamarie30
@@ -26,6 +27,7 @@ export default function Contact() {
         <div className="relative z-10 mt-20 grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl mx-auto">
           <a
             href="https://github.com/VMQ30"
+            target="_blank"
             className="group flex items-center gap-3 rounded-full border border-primary bg-background/60 backdrop-blur-sm px-4 py-3 hover:bg-accent transition"
           >
             <span className="h-8 w-8 shrink-0 inline-flex items-center justify-center rounded-full bg-[var(--pink-tint)] text-[var(--primary-foreground)]">
@@ -51,6 +53,7 @@ export default function Contact() {
           </a>
           <a
             href="https://www.linkedin.com/in/vida-quinia-a7029b364"
+            target="_blank"
             className="group flex items-center gap-3 rounded-full border border-primary bg-background/60 backdrop-blur-sm px-4 py-3 hover:bg-accent transition"
           >
             <span className="h-8 w-8 shrink-0 inline-flex items-center justify-center rounded-full bg-[var(--pink-tint)] text-[var(--primary-foreground)]">
@@ -77,6 +80,7 @@ export default function Contact() {
           </a>
           <a
             href="tel:+639619036381"
+            target="_blank"
             className="group flex items-center gap-3 rounded-full border border-primary bg-background/60 backdrop-blur-sm px-4 py-3 hover:bg-accent transition"
           >
             <span className="h-8 w-8 shrink-0 inline-flex items-center justify-center rounded-full bg-[var(--pink-tint)] text-[var(--primary-foreground)]">
